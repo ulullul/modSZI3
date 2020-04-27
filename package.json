@@ -1,0 +1,15 @@
+{
+  "name": "mszi14var3dz",
+  "version": "1.0.0",
+  "description": "Моделювання СЗІ 14 варіант 3 ДЗ",
+  "main": "Var14Algorithm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Var14Algorithm.js"
+  },
+  "author": "Andrii Prytula",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
