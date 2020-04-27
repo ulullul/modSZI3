@@ -55,7 +55,7 @@ class Var14Algorithm {
 
         children.forEach(children => this.population.push(new Individual(parseInt(children, 2))));
         for (let i = this.population.length; this.population.length - i >= children.length; i++) {
-            this.population[i].mutate(0.3);
+            this.population[i].mutate(0.03);
         }
     }
 
